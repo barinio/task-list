@@ -1,0 +1,171 @@
+/* reset */
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+::-webkit-scrollbar {
+	display: none;
+}
+/* addition */
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	background: lightpink;
+}
+
+.task-list {
+	width: 500px;
+}
+#task-name-input {
+	border: 2px solid purple;
+	background: violet;
+	color: white;
+	font-weight: 600;
+}
+#add-task-btn {
+	background: purple;
+	color: white;
+	font-weight: 600;
+}
+#start-message {
+	font-size: 25px;
+	font-weight: 600;
+	text-decoration: underline;
+	color: purple;
+	margin: 10px;
+}
+
+.task {
+	display: flex;
+	align-items: center;
+	border: 2px solid purple;
+	background: pink;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 3px 8px;
+	margin: 2px 10px;
+}
+
+.task p {
+	margin-left: 4px;
+}
+
+.completed {
+	background-color: yellowgreen;
+	color: black;
+}
+
+.completed p {
+	text-decoration: line-through;
+}
+
+.input-panel {
+	width: 500px;
+	margin: 8px;
+	padding: 2px;
+}
+
+.input-panel button {
+	padding: 4px;
+	width: 25%;
+}
+
+.input-panel input {
+	height: 23px;
+	padding-left: 4px;
+	width: 68%;
+}
+
+.delete {
+	color: darkred;
+	margin: 8px;
+	padding: 2px;
+	border: 2px solid darkred;
+	background-color: lightcoral;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.delete:hover {
+	background-color: crimson;
+	color: white;
+}
