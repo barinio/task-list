@@ -101,11 +101,6 @@ body {
 	color: white;
 	font-weight: 600;
 }
-#add-task-btn {
-	background: purple;
-	color: white;
-	font-weight: 600;
-}
 #start-message {
 	font-size: 25px;
 	font-weight: 600;
@@ -117,6 +112,7 @@ body {
 .task {
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 	border: 2px solid purple;
 	background: pink;
 	font-size: 16px;
@@ -168,4 +164,9 @@ body {
 .delete:hover {
 	background-color: crimson;
 	color: white;
+}
+.btn {
+	background: purple;
+	color: white;
+	font-weight: 600;
 }
